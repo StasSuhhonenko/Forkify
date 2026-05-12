@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe browser application",
+  "scripts": {
+    "start": "cross-env PARCEL_WORKERS=1 parcel index.html",
+    "build": "cross-env PARCEL_WORKERS=1 parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Stanislav Suhhonenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "cross-env": "^10.1.0",
+    "parcel": "^2.16.4",
+    "sass": "^1.99.0"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0",
+    "fracty": "^1.0.12",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
