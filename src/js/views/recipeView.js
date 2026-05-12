@@ -1,5 +1,4 @@
 ﻿import View from '../views/view.js';
-// import icons from '../img/icons'; //// Parcel 1
 import icons from 'url:../../img/icons.svg'; //// Parcel 2
 import fracty from 'fracty';
 
@@ -119,4 +118,3 @@ class RecipeView extends View {
 }
 
 export default new RecipeView();
-

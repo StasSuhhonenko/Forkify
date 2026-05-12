@@ -1,4 +1,3 @@
-// import icons from '../img/icons'; //// Parcel 1
 import icons from 'url:../../img/icons.svg'; //// Parcel 2
 
 class SearchView {

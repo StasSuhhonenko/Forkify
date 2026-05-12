@@ -1,5 +1,4 @@
 import View from '../views/view.js';
-// import icons from '../img/icons'; //// Parcel 1
 import icons from 'url:../../img/icons.svg'; //// Parcel 2
 
 class PaginationView extends View {
