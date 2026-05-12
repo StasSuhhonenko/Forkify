@@ -12,7 +12,8 @@
     "@parcel/transformer-sass": "^2.16.4",
     "cross-env": "^10.1.0",
     "parcel": "^2.16.4",
-    "sass": "^1.99.0"
+    "sass": "^1.99.0",
+    "svgo": "^3.0.5"
   },
   "dependencies": {
     "core-js": "^3.49.0",
