@@ -4,7 +4,7 @@
   "description": "Recipe browser application",
   "scripts": {
     "start": "cross-env PARCEL_WORKERS=1 parcel index.html",
-    "build": "cross-env PARCEL_WORKERS=1 parcel build index.html --dist-dir ./dist"
+    "build": "cross-env PARCEL_WORKERS=1 parcel build index.html --dist-dir ./dist --no-optimize"
   },
   "author": "Stanislav Suhhonenko",
   "license": "ISC",
